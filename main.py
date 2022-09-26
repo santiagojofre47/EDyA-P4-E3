@@ -20,7 +20,3 @@ if __name__ == '__main__':
     print('Sucesores del nodo {}:'.format(clave))
     for nodo in lista_sucesores:
         print(nodo)
-    print(objArbol.Camino(objArbol.getRaiz(),2,3))
-    
-    
-

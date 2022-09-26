@@ -16,7 +16,7 @@ if __name__ == '__main__':
     altura = objArbol.Altura(objArbol.getRaiz())
     print('Altura del arbol: {}' .format(altura))
     clave = int(input('Ingrese la clave de un nodo: '))
-    lista_sucesores = objArbol.getSucesores(clave)
     print('Sucesores del nodo {}:'.format(clave))
-    for nodo in lista_sucesores:
-        print(nodo)
+    objArbol.getSucesores(clave)
+
+
